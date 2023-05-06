@@ -1,0 +1,41 @@
+[
+    {
+        "id":1,
+        "name": "Hyderabad"
+    },
+
+    {
+        "id":2,
+        "name":"Vijawavada"
+    },
+
+    {
+        "id":3,
+        "name":"Rajahmundry"
+    },
+
+    {
+        "id":4,
+        "name":"Amalapuram"
+    },
+
+    {
+        "id":5,
+        "name":"Vanapalli"
+    },
+
+    {
+        "id":6,
+        "name":"Mummidivaram"
+    },
+
+    {
+        "id":7,
+        "name":"Puttaparthi"
+    },
+
+    {
+        "id":8,
+        "name":"Vishakapatnam"
+    }
+]

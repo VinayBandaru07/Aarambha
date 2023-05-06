@@ -1,23 +1,21 @@
+import React, {useState, useEffect} from 'react'
 import logo from './logo.svg';
+import './css/login.css'
 import './App.css';
+import my_style from './css/Main_style.css'
+import './css/bootstrap.css'
+import Home from './components/Home.js'
+import {BrowserRouter, Route, Routes ,redirect, useNavigate, Navigate} from 'react-router-dom'
+import Cart from './components/cart.js'
+import Login from './login.js'
+import { initializeApp } from "firebase/app";
+import {getAuth,signInWithRedirect, signInWithPopup, GoogleAuthProvider, getAdditionalUserInfo} from "firebase/auth"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Login />
+     
     </div>
   );
 }
